@@ -20,15 +20,34 @@ body {
 }
 
 /* ***** Bootstrap Styles ***** */
-.navbar-brand img {
-    width: auto;
-    height: 30px;
-}
 
 .bg-dark {
     background-color: var(--second-color) !important;
 }
 
+.navbar-brand img {
+    width: auto;
+    height: 3rem;
+}
+
+.nav-item {
+    padding-left: 0.5rem;
+    transition: all .0.3s ease-out;
+
+}
+.nav-item:hover {
+    background-color: var(--first-alpha-color);
+}
+
+.nav-link {
+    color: var(--first-color);
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--bs-white)
+}
 /* ***** My Styles ***** */
 
 /* // X-Small devices (portrait phones, less than 576px)
