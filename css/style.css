@@ -3,7 +3,7 @@
     --first-color: rgb(217,0,98);
     --first-alpha-color: rgba(217,0,98,0.75);
     --second-color: rgb(20,25,45);
-    --second-color: rgba(20,25,45,0.75);
+    --second-alpha-color: rgba(20,25,45,0.75);
     --third-color: rgb(80, 20, 100);
     --third-alpha-color: rgba(80, 20, 100, 0.75);
     
@@ -115,6 +115,9 @@ a:hover {
     background-color: var(--bg-alpha-color);
 }
 
+.bg-second-alpha-color {
+    background-color: var(--second-alpha-color);
+}
 .bg-third-color {
     background-color: var(--third-color);
 }
