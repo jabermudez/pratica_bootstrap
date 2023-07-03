@@ -59,16 +59,24 @@
             <p class="fs-5">Para más información, puedes contactarme en <a href="mailto:info@studiobaddog.com">info@studiobaddog.com</a>.</p>
           </article>
           <article class="col-12 col-lg-6 order-lg-1">
-            <form action="">
-              <label for="name">Nombre:</label>
-              <input class="" id="name" name="name" placeholder="Tu nombre" type="text" required> 
-              
-              <label for="email">Email:</label>
-              <input class="" id="email" name="email" placeholder="Tu correo" type="email" required>  
-
-              <label for="comments">Comentarios:</label>
-              <textarea name="comments" id="comments" required></textarea>
-              <input type="submit">
+            <form action="https://formsubmit.co/sia.serviciostic@outlook.com" method="POST">
+              <div class="div mb-3">
+              <label class="form-label" for="name">Nombre:</label>
+              <input class="form-control" id="name" name="name" placeholder="Tu nombre" type="text" required> 
+              </div>
+              <div class="div mb-3">
+              <label class="form-label" for="email">Email:</label>
+              <input class="form-control" id="email" name="email" placeholder="Tu correo" type="email" required>  
+              </div>
+              <div class="div mb-3">
+              <label class="form-label" for="comments">Comentarios:</label>
+              <textarea rows="5" class="form-control" name="comments" id="comments" placeholder="Déjanos tu comentarios" required></textarea>
+              </div>
+              <div class="mb-3">
+              <input class="btn btn-lg btn-success" type="submit">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/gracias.html">
+              <input type="hidden" name="_subject" value="Comentario curso bootstrap">
+              </div>
             </form>
           </article>
           <article class="col-12 col-lg-6">
